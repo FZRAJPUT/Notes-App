@@ -45,7 +45,8 @@ h1 img{
     margin-right: 8px;
 }
 .notes-container{
-    min-width: 400px;
+    max-width: 100%;
+    min-width: 420px;
 }
 .container button{
     display: flex;
