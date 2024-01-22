@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    /* overflow-y: hidden; */
+}
+
+body{
+    background: linear-gradient(135deg,#cf9aff,#95c0ff);
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    color: #fff;
+    padding-top: 4%;
+    padding-left: 10%;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+h1 img{
+    width: 100px;
+}
+.container button i{
+    font-size: 25px;
+    margin-right: 8px;
+}
+.notes-container{
+    min-width: 400px;
+}
+.container button{
+    display: flex;
+    align-items: center;
+    background: rgb(37, 93, 247);
+    padding: 5px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: white;
+}
+.container button:hover{
+    background: rgb(1, 57, 209);
+}
+.input-box{
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    min-height: 150px;
+    background: #fff;
+    color: #333;
+    padding: 20px;
+    margin: 20px;
+    outline: none;
+    border-radius: 5px;
+}
+p img{
+    cursor: pointer;
+    height: 30px;
+    width: 40px;
+    /* padding: 10px; */
+    transition: all .2s ease-in;
+    position: absolute;
+    top: 145px;
+    right: 10px;
+}
+
